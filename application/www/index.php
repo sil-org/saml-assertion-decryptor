@@ -71,7 +71,7 @@ if(isset($_POST['assertionXML'])) {
 
  <body style="background-color: #FEB">
   <h1 style="margin-bottom: 10px;"> Decrypt a SAML Assertion</h1>
-  <a href="https://github.com/silinternational/saml-assertion-decryptor/blob/master/README.md"  target="_blank">See instructions</a>
+  <a href="https://github.com/sil-org/saml-assertion-decryptor/blob/master/README.md"  target="_blank">See instructions</a>
   <form action="." method="POST">
     Insert the encrypted SAML assertion:   (Must include a &lt;xenc:EncryptedData&gt; tag)
     <br>
