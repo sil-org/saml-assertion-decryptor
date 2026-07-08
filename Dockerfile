@@ -6,6 +6,7 @@ RUN apt-get update -y \
  && apt-get install -y \
       vim \
       php-memcache \
+      php-bcmath \
  && apt-get clean
 
 # Create required directories
