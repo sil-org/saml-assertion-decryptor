@@ -1,7 +1,5 @@
 FROM ghcr.io/sil-org/php8:8.3
 
-ENV REFRESHED_AT=2025-10-28
-
 RUN apt-get update -y \
  && apt-get install -y \
       vim \
