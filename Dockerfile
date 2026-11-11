@@ -5,8 +5,8 @@ ENV REFRESHED_AT=2025-10-28
 RUN apt-get update -y \
  && apt-get install -y \
       vim \
-      php-memcache \
-      php-bcmath \
+      php8.3-memcache \
+      php8.3-bcmath \
  && apt-get clean
 
 # Create required directories
