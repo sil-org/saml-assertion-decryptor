@@ -3,8 +3,8 @@ FROM ghcr.io/sil-org/php8:8.3
 RUN apt-get update -y \
  && apt-get install -y \
       vim \
-      php8.3-memcache \
-      php8.3-bcmath \
+      php${PHP_VERSION}-memcache \
+      php${PHP_VERSION}-bcmath \
  && apt-get clean
 
 # Create required directories
